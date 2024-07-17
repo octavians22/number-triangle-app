@@ -19,6 +19,6 @@ test('calls onNumberChange with 0 for invalid input', () => {
   const input = getByPlaceholderText('Enter a number');
   fireEvent.change(input, { target: { value: 'invalid' } });
   
-  expect(handleNumberChange).toHaveBeenCalledTimes(1);  // Check if the function is called once
-  expect(handleNumberChange).toHaveBeenCalledWith(0);   // Check if it was called with 0
+  expect(handleNumberChange).toHaveBeenCalledTimes(1);  
+  expect(handleNumberChange).toHaveBeenCalledWith(0);   
 });

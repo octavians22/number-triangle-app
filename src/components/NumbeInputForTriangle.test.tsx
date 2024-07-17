@@ -21,7 +21,7 @@ describe('NumberInputForTriangle component', () => {
     
     const input = getByPlaceholderText(`Enter ${label}`);
     fireEvent.change(input, { target: { value: 'invalid' } });
-    
+  
     expect(handleNumberChange).toHaveBeenCalledWith(0);
   });
 });

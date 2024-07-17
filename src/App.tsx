@@ -32,7 +32,7 @@ const App: React.FC = () => {
         <FontAwesomeIcon icon={faRulerVertical} className="icon" />
         <NumberInputForTriangle label="Height" onNumberChange={setHeight} />
       </div>
-      <div className="input-group">
+      <div className="input-group width-adjust">
         <FontAwesomeIcon icon={faRulerHorizontal} className="icon" />
         <NumberInputForTriangle label="Width" onNumberChange={setWidth} />
       </div>
