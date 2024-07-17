@@ -9,4 +9,5 @@ test('displays the correct list of numbers', () => {
   numbers.forEach((number) => {
     expect(getByText(number.toString())).toBeInTheDocument();
   });
+  
 });
