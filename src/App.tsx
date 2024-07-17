@@ -1,39 +1,3 @@
-// import React, { useState } from 'react';
-// import NumberInput from './components/NumberInput';
-// import NumberInputForTriangle from './components/NumberInputForTriangle';
-// import NumberList from './components/NumberList';
-// import TriangleArea from './components/TriangleArea';
-// import { generateNumbers } from './utils/generateNumbers';
-// import './App.css';
-
-// const App: React.FC = () => {
-//   const [numbers, setNumbers] = useState<number[]>([]);
-//   const [height, setHeight] = useState<number>(0);
-//   const [width, setWidth] = useState<number>(0);
-
-//   const handleNumberListChange = (num: number) => {
-//     const generatedNumbers = generateNumbers(num);
-//     setNumbers(generatedNumbers);
-//   };
-
-//   return (
-//     <div className="container">
-//       <h1>Number List Generator</h1>
-//       <NumberInput onNumberChange={handleNumberListChange} />
-//       <NumberList numbers={numbers} />
-      
-//       <h1>Triangle Area Calculator</h1>
-//       <NumberInputForTriangle label="Height" onNumberChange={setHeight} />
-//       <NumberInputForTriangle label="Width" onNumberChange={setWidth} />
-//       <TriangleArea height={height} width={width} />
-//     </div>
-//   );
-// };
-
-// export default App;
-
-// src/App.tsx
-
 import React, { useState } from 'react';
 import NumberInput from './components/NumberInput';
 import NumberInputForTriangle from './components/NumberInputForTriangle';
