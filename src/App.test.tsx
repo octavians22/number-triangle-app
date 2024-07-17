@@ -7,3 +7,9 @@ test('renders Number List Generator link', () => {
   const linkElement = screen.getByText(/Number List Generator/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('renders Triangle Area Calculator link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/Triangle Area Calculator/i);
+  expect(linkElement).toBeInTheDocument();
+});
